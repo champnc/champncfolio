@@ -1,1 +1,1 @@
-export {}
+export { default as AboutMeSection} from './AboutMeSection'
