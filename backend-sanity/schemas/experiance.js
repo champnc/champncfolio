@@ -1,6 +1,6 @@
 export default {
-    name: 'works',
-    title: 'Works',
+    name: 'experiances',
+    title: 'Experiances',
     type: 'document',
     fields: [
       {
@@ -8,20 +8,24 @@ export default {
         title: 'Title',
         type: 'string',
       },
-    
       {
         name: 'description',
         title: 'Description',
         type: 'string',
       },
       {
-        name: 'projectLink',
-        title: 'Project Link',
+        name: 'jobTitle',
+        title: 'Job Title',
         type: 'string',
       },
       {
-        name: 'codeLink',
-        title: 'Code Link',
+        name: 'duration',
+        title: 'Duration',
+        type: 'string',
+      },
+      {
+        name: 'workplaceLink',
+        title: 'Workplace Link',
         type: 'string',
       },
       {
@@ -32,7 +36,6 @@ export default {
           hotspot: true,
         },
       },
-   
       {
         name: 'tags',
         title: 'Tags',
