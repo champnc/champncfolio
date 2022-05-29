@@ -4,16 +4,18 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { AboutMeSection } from "./pages/AboutMeSection";
 import { Helmet } from "react-helmet";
+import { ContactSection } from "./pages/ContactSection";
 
 function App() {
   return (
     <div className="App">
-      <Helmet>
+      {/* <Helmet>
         <title>Champnc</title>
         <meta name="description" content="champncfolio application" />
-      </Helmet>
+      </Helmet> */}
       <Navbar />
-      <AboutMeSection/>
+      <AboutMeSection />
+      <ContactSection />
       <Footer />
     </div>
   );

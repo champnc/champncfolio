@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
 
     return (
-        <div className="bg-gray-800">
+        <div className="bg-gray-800 pb-4">
             <div className="mx-4 mb-4 flex justify-center space-x-7 ">
                 <a href="https://github.com/champnc"><img src="./images/github-logo.svg" alt="" className="mt-4 w-5 md:w-5 lg:w-10" /></a>
                 <a href="https://www.linkedin.com/in/champnc/"><img src="./images/linkedin-logo.svg" alt="" className="mt-4 w-5 md:w-5 lg:w-10" /></a>

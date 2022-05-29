@@ -14,7 +14,7 @@ const AboutMeSection = () => {
         </h1>
         <a href="#">
           <div className="m-4 rounded-3xl bg-gray-800 p-4 mx-60 mb-24">
-            <h2 className="text-white text-center text-2xl">Download Resume</h2>
+            <h2 className="text-white text-center text-2xl">Download <span className="text-red-500">Resume</span></h2>
           </div>
         </a>
       </div>
