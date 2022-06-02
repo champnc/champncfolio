@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
-import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
-import { AboutMeSection } from "./pages/AboutMeSection";
-import { Helmet } from "react-helmet";
-import { ContactSection } from "./pages/ContactSection";
+import { Navbar, Footer } from "./components";
+import {
+  AboutMeSection,
+  ContactSection,
+  EducationSection,
+  ExperianceSection,
+  WorkSection,
+} from "./pages";
 
 function App() {
   return (
