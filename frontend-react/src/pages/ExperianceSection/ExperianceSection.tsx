@@ -1,4 +1,6 @@
 import React from "react";
-const ExperianceSection = () => {};
+const ExperianceSection = () => {
+    return(<div></div>);
+};
 
 export default ExperianceSection;

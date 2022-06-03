@@ -18,6 +18,9 @@ function App() {
       </Helmet> */}
       <Navbar />
       <AboutMeSection />
+      <ExperianceSection/>
+      <EducationSection/>
+      <WorkSection/>
       <ContactSection />
       <Footer />
     </div>

@@ -1,4 +1,6 @@
 import React from "react";
-const EducationSection = () => {};
+const EducationSection = () => {
+    return(<div></div>);
+};
 
 export default EducationSection;
