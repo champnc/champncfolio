@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { client } from "../../client";
 const EducationSection = () => {
-    const [education, setEducation] = useState([]);
+    const [educations, setEducation] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "education"]';
@@ -10,7 +10,11 @@ const EducationSection = () => {
             setEducation(data);
         });
       }, []);
-    return(<div></div>);
+    return(<div>
+        {educations.map((educations,index) => (
+        <div></div>
+      ))}
+    </div>);
 };
 
 export default EducationSection;

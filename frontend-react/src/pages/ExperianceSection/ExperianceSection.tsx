@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { client } from "../../client";
 const ExperianceSection = () => {
-    const [experiance, setExperiance] = useState([]);
+    const [experiances, setExperiance] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "experiance"]';
@@ -10,7 +10,11 @@ const ExperianceSection = () => {
             setExperiance(data);
         });
       }, []);
-    return(<div></div>);
+    return(<div>
+        {experiances.map((experiance,index) => (
+        <div></div>
+      ))}
+    </div>);
 };
 
 export default ExperianceSection;

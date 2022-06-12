@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { client } from "../../client";
 const WorkSection = () => {
-    const [works, setWorks] = useState([]);
+    const [works , setWorks] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "works"]';
@@ -11,7 +11,12 @@ const WorkSection = () => {
         });
       }, []);
 
-    return(<div></div>);
+    return(<div>
+      {works.map((work,index) => (
+        <div></div>
+      ))}
+    </div>
+    );
 };
 
 export default WorkSection;
