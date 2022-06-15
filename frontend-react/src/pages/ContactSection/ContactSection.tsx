@@ -38,7 +38,7 @@ const ContactSection = () => {
           <br />
           <input
             type="text"
-            name="email"
+            name="from_email"
             placeholder="Enter your email"
             className="rounded-xl my-4 w-full h-12 p-4"
           />
